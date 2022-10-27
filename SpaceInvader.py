@@ -9,19 +9,19 @@ WIN = pygame.display.set_mode((WIDTH,HEIGHT))
 pygame.display.set_caption("Space shooter")
 
 #Ship
-red_space_ship = pygame.image.load("Game /assets/pixel_ship_red_small.bmp")
-blue_space_ship = pygame.image.load("Game /assets/pixel_ship_blue_small.bmp")
-green_space_ship = pygame.image.load("Game /assets/pixel_ship_green_small.bmp")
-yellow_space_ship = pygame.image.load("/Users/buidinhtri/Desktop/Python Basic/Game /assets/pixel_ship_yellow.bmp")
+red_space_ship = pygame.image.load("assets/pixel_ship_red_small.bmp")
+blue_space_ship = pygame.image.load("assets/pixel_ship_blue_small.bmp")
+green_space_ship = pygame.image.load("assets/pixel_ship_green_small.bmp")
+yellow_space_ship = pygame.image.load("assets/pixel_ship_yellow.bmp")
 
 #Laser
-red_laser = pygame.image.load("Game /assets/pixel_laser_red.bmp")
-blue_laser = pygame.image.load("Game /assets/pixel_laser_blue.bmp")
-green_laser = pygame.image.load("Game /assets/pixel_laser_green.bmp")
-yellow_laser = pygame.image.load("Game /assets/pixel_laser_yellow.bmp")
+red_laser = pygame.image.load("assets/pixel_laser_red.bmp")
+blue_laser = pygame.image.load("assets/pixel_laser_blue.bmp")
+green_laser = pygame.image.load("assets/pixel_laser_green.bmp")
+yellow_laser = pygame.image.load("assets/pixel_laser_yellow.bmp")
 
 #Background
-background = pygame.transform.scale((pygame.image.load("Game /assets/background-black (1).bmp")),(WIDTH, HEIGHT))
+background = pygame.transform.scale((pygame.image.load("assets/background-black (1).bmp")),(WIDTH, HEIGHT))
 
 class Laser:
     def __init__(self, x, y, img):
